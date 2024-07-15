@@ -1,0 +1,95 @@
+{
+    "search_term": "Williams",
+    "mentors": [
+      {
+        "id": 1,
+        "name": "Lauralee Williams",
+        "position": "Regional Vice President",
+        "image": "lauralee_williams.png"
+      },
+      {
+        "id": 2,
+        "name": "Benny Williams",
+        "position": "Director of Marketing",
+        "image": "benny_williams.png"
+      },
+      {
+        "id": 3,
+        "name": "Clinton Williams",
+        "position": "Marketing Manager",
+        "image": "clinton_williams.png"
+      },
+      {
+        "id": 4,
+        "name": "Sanjuania Williams",
+        "position": "Manager, Solution Engineering",
+        "image": "sanjuania_williams.png"
+      },
+      {
+        "id": 5,
+        "name": "Charolette Williams",
+        "position": "VP of Marketing",
+        "image": "charolette_williams.png"
+      },
+      {
+        "id": 6,
+        "name": "Daryl Williams",
+        "position": "Director of Product",
+        "image": "daryl_williams.png"
+      },
+      {
+        "id": 7,
+        "name": "Jamel Williams",
+        "position": "Senior UX Designer",
+        "image": "jamel_williams.png"
+      },
+      {
+        "id": 8,
+        "name": "Marci Williams",
+        "position": "Sales Director",
+        "image": "marci_williams.png"
+      }
+    ],
+    "courses": [
+      {
+        "id": 1,
+        "title": "Stock Trading",
+        "price": "25 KD",
+        "original_price": "30 KD",
+        "rating": 4.9,
+        "students": 15827,
+        "category": "Finance",
+        "image": "stock_trading_course_image.png"
+      },
+      {
+        "id": 2,
+        "title": "Green Finance",
+        "price": "52 KD",
+        "original_price": "88 KD",
+        "rating": 4.8,
+        "students": 12736,
+        "category": "Finance",
+        "image": "green_finance_course_image.png"
+      },
+      {
+        "id": 3,
+        "title": "AI in Finance",
+        "price": "28 KD",
+        "original_price": "40 KD",
+        "rating": 4.8,
+        "students": 9274,
+        "category": "Finance",
+        "image": "ai_in_finance_course_image.png"
+      },
+      {
+        "id": 4,
+        "title": "Handling Taxes",
+        "price": "42 KD",
+        "original_price": "45 KD",
+        "rating": 4.1,
+        "students": 8927,
+        "category": "Finance",
+        "image": "handling_taxes_course_image.png"
+      }
+    ]
+  }

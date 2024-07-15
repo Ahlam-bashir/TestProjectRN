@@ -1,0 +1,96 @@
+{
+    "user": {
+      "name": "John",
+      "greeting": "Hello",
+      "image_user":"userimage.png"
+    },
+    "today_special": {
+      "discount": "40%",
+      "title": "Today's Special",
+      "description": "Get a discount for every course order! Only valid for today!"
+    },
+    "categories": [
+      {
+        "id": 1,
+        "name": "Finance Basics",
+        "icon": "finance_basics_icon.png",
+        "icon_color":"#E7FEF8"
+      },
+      {
+        "id": 2,
+        "name": "Wealth Building",
+        "icon": "wealth_building_icon.png",
+         "icon_color":"#38ABFF"
+      },
+      {
+        "id": 3,
+        "name": "Savings and Banking",
+        "icon": "savings_banking_icon.png",
+          "icon_color":"#FEECE6"
+      }
+    ],
+    "featured_courses": [
+      {
+        "id": 1,
+        "title": "Budgeting and Money Management",
+        "price": "48 KD",
+        "original_price": "80 KD",
+        "rating": 4.8,
+        "students": 8289,
+        "category": "Finance",
+        "image": "budgeting_course_image.png"
+      },
+      {
+        "id": 2,
+        "title": "Digital Entrepreneurship",
+        "price": "39 KD",
+        "original_price": "45 KD",
+        "rating": 4.9,
+        "students": 6182,
+        "category": "Entrepreneurship",
+        "image": "digital_entrepreneurship_course_image.png"
+      },
+      {
+        "id": 3,
+        "title": "Learn Investment in Gold",
+        "price": "42 KD",
+        "original_price": "75 KD",
+        "rating": 4.7,
+        "students": 7938,
+        "category": "Wealth",
+        "image": "investment_gold_course_image.png"
+      }
+    ],
+    "most_popular_courses": [
+      {
+        "id": 1,
+        "title": "Budgeting and Money Management",
+        "price": "48 KD",
+        "original_price": "80 KD",
+        "rating": 4.8,
+        "students": 8289,
+        "category": "Finance",
+        "image": "budgeting_course_image.png"
+      },
+      {
+        "id": 2,
+        "title": "Digital Entrepreneurship",
+        "price": "39 KD",
+        "original_price": "45 KD",
+        "rating": 4.9,
+        "students": 6182,
+        "category": "Entrepreneurship",
+        "image": "digital_entrepreneurship_course_image.png"
+      },
+      {
+        "id": 3,
+        "title": "Learn Investment in Gold",
+        "price": "42 KD",
+        "original_price": "75 KD",
+        "rating": 4.7,
+        "students": 7938,
+        "category": "Wealth",
+        "image": "investment_gold_course_image.png"
+      }
+    ]
+  }
