@@ -1,15 +1,19 @@
-import { Image, StyleSheet, Text, View } from "react-native"
+import { Image, StyleSheet, Text, TextInput, TouchableOpacity, View } from "react-native"
 import textStyles from "../constants/textStyles"
 
-const SearchBar=({searchText,setSearchText,...props})=>{
+const SearchBar=({searchText,setSearchText,onClickSearch,onFilter})=>{
     return(
-        <View style={styles.searchContainer}>
+        <TouchableOpacity style={styles.searchContainer} onPress={onClickSearch}>
             <View style={styles.searchbox}>
             <Image source={require("../assets/icons/Search.png")}/>
-            <Text style={[textStyles.normalText,{marginLeft:8}]}>Search</Text>
+            <TextInput value={searchText} style={[{marginLeft:8}]} onChangeText={(value)=>setSearchText(value)} placeholder="Search"/>
+            
             </View>
-            <Image source={require("../assets/icons/Filter.png")}/>
-        </View>
+            <TouchableOpacity disabled={!searchText} onPress={ onFilter}>
+            <Image source={require("../assets/icons/Filter.png")} />
+            </TouchableOpacity>
+          
+        </TouchableOpacity>
     )
 
 }
@@ -25,6 +29,7 @@ const styles=StyleSheet.create({
         justifyContent:"space-between"
     },
     searchbox:{
-       flexDirection:"row"
+       flexDirection:"row",
+       alignItems:"center"
     }
 })

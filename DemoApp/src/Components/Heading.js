@@ -2,12 +2,12 @@ import { StyleSheet, Text, View } from "react-native"
 import textStyles from "../constants/textStyles"
 import colors from "../utils/colors"
 
-const Heading=({title,})=>{
+const Heading=({title,des})=>{
 
     return(
         <View style={styles.textContainer}>
             <Text style={[textStyles.heading,{color:colors.black}]}>{title}</Text>
-            <Text style={[textStyles.normalText,{color:colors.primary}]}>See All</Text>
+            <Text style={[textStyles.normalText,{color:colors.primary}]}>{des?des+" Found" :"See All"}</Text>
         </View>
     )
 

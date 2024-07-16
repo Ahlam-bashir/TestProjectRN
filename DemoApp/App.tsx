@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import type {PropsWithChildren} from 'react';
 import {
   SafeAreaView,
@@ -14,6 +14,7 @@ import {
   Colors,
 } from 'react-native/Libraries/NewAppScreen';
 import HomePage from './src/Screens/HomePage';
+import SearchPage from './src/Screens/SearchPage';
 
 function App(): React.JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
@@ -21,7 +22,7 @@ function App(): React.JSX.Element {
   const backgroundStyle = {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
-
+const [showSearch,setShowSearch]=useState(false)
   return (
     <SafeAreaView style={styles.sectionContainer}>
       <StatusBar
@@ -29,8 +30,10 @@ function App(): React.JSX.Element {
         backgroundColor={backgroundStyle.backgroundColor}
       />
       <View style={styles.sectionContainer}>
-        <HomePage/>
-
+       
+       {showSearch ?
+       <SearchPage showSearch={showSearch} setShowSearch={setShowSearch}/>:
+       <HomePage showSearch={showSearch} setShowSearch={setShowSearch}/>}
       </View>
    
     </SafeAreaView>
@@ -41,7 +44,6 @@ const styles = StyleSheet.create({
   sectionContainer: {
    padding:16,
    flex:1,
-   backgroundColor:"white"
   },
   
 });
