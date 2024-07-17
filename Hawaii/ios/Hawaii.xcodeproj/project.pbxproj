@@ -15,6 +15,20 @@
 		7699B88040F8A987B510C191 /* libPods-Hawaii-HawaiiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Hawaii-HawaiiTests.a */; };
 		7842CD9874B4D04507F0271A /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 78138C014020D6D89740BFF6 /* PrivacyInfo.xcprivacy */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		55975CD616FE46A1A41299F3 /* IBMPlexMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63FF07CF3AAC45C5ABAE4FFF /* IBMPlexMono-Bold.ttf */; };
+		F4749C1E99CA45368A819A2C /* IBMPlexMono-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7993B637FE894EAE8778D788 /* IBMPlexMono-BoldItalic.ttf */; };
+		06C7C7E63CB645ACBDDB2A60 /* IBMPlexMono-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 934E35CA16F9421FB25D39E1 /* IBMPlexMono-ExtraLight.ttf */; };
+		6FF4F2A7DE984E3792CEF5B1 /* IBMPlexMono-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AABE21EF7AA04FF99CD3D1C8 /* IBMPlexMono-ExtraLightItalic.ttf */; };
+		A6D3F151630B46418303155D /* IBMPlexMono-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 437DCE2518B84277A9BB723C /* IBMPlexMono-Italic.ttf */; };
+		D7656DCC4C5343CCA271C4DE /* IBMPlexMono-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14633D0D10CA4BE191BDDA39 /* IBMPlexMono-Light.ttf */; };
+		9394CBED2FF3486682EE5EE9 /* IBMPlexMono-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03BDC061710B4619A32F7ABD /* IBMPlexMono-LightItalic.ttf */; };
+		A4AF389F05E94FF8BD45B3C2 /* IBMPlexMono-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB8BCB3A52A847EA9AECDA06 /* IBMPlexMono-Medium.ttf */; };
+		D7EAD35608D246E2A858CBCB /* IBMPlexMono-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B189356BB0194D32B4026A40 /* IBMPlexMono-MediumItalic.ttf */; };
+		B0AA2CA14CE0495C9204E75E /* IBMPlexMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A969084E2FC142B2872CA225 /* IBMPlexMono-Regular.ttf */; };
+		C011EEE376A6455A86453C80 /* IBMPlexMono-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C415379103774C5AA5665443 /* IBMPlexMono-SemiBold.ttf */; };
+		253EBD96B2854F5D90CBA21E /* IBMPlexMono-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C7A6608CEC74D67A6133870 /* IBMPlexMono-SemiBoldItalic.ttf */; };
+		5317485438C04F1BB1E32271 /* IBMPlexMono-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E418C0EBFABB4AB2BCC24207 /* IBMPlexMono-Thin.ttf */; };
+		872E4FE697B84C68BBED79FF /* IBMPlexMono-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 508224E2C86B488D8521A72D /* IBMPlexMono-ThinItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +61,20 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Hawaii/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-Hawaii-HawaiiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hawaii-HawaiiTests.release.xcconfig"; path = "Target Support Files/Pods-Hawaii-HawaiiTests/Pods-Hawaii-HawaiiTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		63FF07CF3AAC45C5ABAE4FFF /* IBMPlexMono-Bold.ttf */ = {isa = PBXFileReference; name = "IBMPlexMono-Bold.ttf"; path = "../assets/fonts/IBMPlexMono-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7993B637FE894EAE8778D788 /* IBMPlexMono-BoldItalic.ttf */ = {isa = PBXFileReference; name = "IBMPlexMono-BoldItalic.ttf"; path = "../assets/fonts/IBMPlexMono-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		934E35CA16F9421FB25D39E1 /* IBMPlexMono-ExtraLight.ttf */ = {isa = PBXFileReference; name = "IBMPlexMono-ExtraLight.ttf"; path = "../assets/fonts/IBMPlexMono-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AABE21EF7AA04FF99CD3D1C8 /* IBMPlexMono-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "IBMPlexMono-ExtraLightItalic.ttf"; path = "../assets/fonts/IBMPlexMono-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		437DCE2518B84277A9BB723C /* IBMPlexMono-Italic.ttf */ = {isa = PBXFileReference; name = "IBMPlexMono-Italic.ttf"; path = "../assets/fonts/IBMPlexMono-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		14633D0D10CA4BE191BDDA39 /* IBMPlexMono-Light.ttf */ = {isa = PBXFileReference; name = "IBMPlexMono-Light.ttf"; path = "../assets/fonts/IBMPlexMono-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		03BDC061710B4619A32F7ABD /* IBMPlexMono-LightItalic.ttf */ = {isa = PBXFileReference; name = "IBMPlexMono-LightItalic.ttf"; path = "../assets/fonts/IBMPlexMono-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CB8BCB3A52A847EA9AECDA06 /* IBMPlexMono-Medium.ttf */ = {isa = PBXFileReference; name = "IBMPlexMono-Medium.ttf"; path = "../assets/fonts/IBMPlexMono-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B189356BB0194D32B4026A40 /* IBMPlexMono-MediumItalic.ttf */ = {isa = PBXFileReference; name = "IBMPlexMono-MediumItalic.ttf"; path = "../assets/fonts/IBMPlexMono-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A969084E2FC142B2872CA225 /* IBMPlexMono-Regular.ttf */ = {isa = PBXFileReference; name = "IBMPlexMono-Regular.ttf"; path = "../assets/fonts/IBMPlexMono-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C415379103774C5AA5665443 /* IBMPlexMono-SemiBold.ttf */ = {isa = PBXFileReference; name = "IBMPlexMono-SemiBold.ttf"; path = "../assets/fonts/IBMPlexMono-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3C7A6608CEC74D67A6133870 /* IBMPlexMono-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "IBMPlexMono-SemiBoldItalic.ttf"; path = "../assets/fonts/IBMPlexMono-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E418C0EBFABB4AB2BCC24207 /* IBMPlexMono-Thin.ttf */ = {isa = PBXFileReference; name = "IBMPlexMono-Thin.ttf"; path = "../assets/fonts/IBMPlexMono-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		508224E2C86B488D8521A72D /* IBMPlexMono-ThinItalic.ttf */ = {isa = PBXFileReference; name = "IBMPlexMono-ThinItalic.ttf"; path = "../assets/fonts/IBMPlexMono-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +155,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				22846D3CF75A4F6F8E07F65A /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -152,6 +181,28 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		22846D3CF75A4F6F8E07F65A /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				63FF07CF3AAC45C5ABAE4FFF /* IBMPlexMono-Bold.ttf */,
+				7993B637FE894EAE8778D788 /* IBMPlexMono-BoldItalic.ttf */,
+				934E35CA16F9421FB25D39E1 /* IBMPlexMono-ExtraLight.ttf */,
+				AABE21EF7AA04FF99CD3D1C8 /* IBMPlexMono-ExtraLightItalic.ttf */,
+				437DCE2518B84277A9BB723C /* IBMPlexMono-Italic.ttf */,
+				14633D0D10CA4BE191BDDA39 /* IBMPlexMono-Light.ttf */,
+				03BDC061710B4619A32F7ABD /* IBMPlexMono-LightItalic.ttf */,
+				CB8BCB3A52A847EA9AECDA06 /* IBMPlexMono-Medium.ttf */,
+				B189356BB0194D32B4026A40 /* IBMPlexMono-MediumItalic.ttf */,
+				A969084E2FC142B2872CA225 /* IBMPlexMono-Regular.ttf */,
+				C415379103774C5AA5665443 /* IBMPlexMono-SemiBold.ttf */,
+				3C7A6608CEC74D67A6133870 /* IBMPlexMono-SemiBoldItalic.ttf */,
+				E418C0EBFABB4AB2BCC24207 /* IBMPlexMono-Thin.ttf */,
+				508224E2C86B488D8521A72D /* IBMPlexMono-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -249,6 +300,20 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				7842CD9874B4D04507F0271A /* PrivacyInfo.xcprivacy in Resources */,
+				55975CD616FE46A1A41299F3 /* IBMPlexMono-Bold.ttf in Resources */,
+				F4749C1E99CA45368A819A2C /* IBMPlexMono-BoldItalic.ttf in Resources */,
+				06C7C7E63CB645ACBDDB2A60 /* IBMPlexMono-ExtraLight.ttf in Resources */,
+				6FF4F2A7DE984E3792CEF5B1 /* IBMPlexMono-ExtraLightItalic.ttf in Resources */,
+				A6D3F151630B46418303155D /* IBMPlexMono-Italic.ttf in Resources */,
+				D7656DCC4C5343CCA271C4DE /* IBMPlexMono-Light.ttf in Resources */,
+				9394CBED2FF3486682EE5EE9 /* IBMPlexMono-LightItalic.ttf in Resources */,
+				A4AF389F05E94FF8BD45B3C2 /* IBMPlexMono-Medium.ttf in Resources */,
+				D7EAD35608D246E2A858CBCB /* IBMPlexMono-MediumItalic.ttf in Resources */,
+				B0AA2CA14CE0495C9204E75E /* IBMPlexMono-Regular.ttf in Resources */,
+				C011EEE376A6455A86453C80 /* IBMPlexMono-SemiBold.ttf in Resources */,
+				253EBD96B2854F5D90CBA21E /* IBMPlexMono-SemiBoldItalic.ttf in Resources */,
+				5317485438C04F1BB1E32271 /* IBMPlexMono-Thin.ttf in Resources */,
+				872E4FE697B84C68BBED79FF /* IBMPlexMono-ThinItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

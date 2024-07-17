@@ -1,12 +1,7 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
+
 
 import React from 'react';
-import type {PropsWithChildren} from 'react';
+
 import {
   SafeAreaView,
   ScrollView,
@@ -21,10 +16,12 @@ import {
 import {
   Colors,
   DebugInstructions,
-  Header,
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import { BottomTabs } from './src/navigation/BottomTabs';
+import Header from './src/components/Header';
+import colors from './src/utils/colors';
 
 function App(): React.JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
@@ -34,14 +31,12 @@ function App(): React.JSX.Element {
   };
 
   return (
-    <SafeAreaView style={backgroundStyle}>
-      <StatusBar
-        barStyle={isDarkMode ? 'light-content' : 'dark-content'}
-        backgroundColor={backgroundStyle.backgroundColor}
-      />
-      <ViewBase>
-        
-      </ViewBase>
+    <SafeAreaView style={{flex:1,backgroundColor:backgroundStyle.backgroundColor}}>
+      <Header/>
+      <View style={{flex:1,backgroundColor:colors.primary_light}}>
+      <BottomTabs/>
+      </View>
+    
     </SafeAreaView>
   );
 }
